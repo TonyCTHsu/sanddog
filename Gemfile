@@ -25,6 +25,10 @@ group :development, :test do
   gem "rspec-rails"
   gem "webmock"
   gem "pry"
+  gem "minitest"
+  gem "test-unit"
+  gem "cucumber-rails", require: false
+  gem "database_cleaner"
 end
 
 group :development do
